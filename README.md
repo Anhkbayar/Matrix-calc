@@ -37,6 +37,7 @@
 ```
   mvn jacoco:report
 ```
+Jacoco coverage нь 100% байх ёстой.
 Үр дүн нь `target/site/jacoco/index.html` файлд үүсэх бөгөөд үүнийг веб хөтөч дээр нээж үзэх боломжтой.
 
 ### Бүх тайланг харах

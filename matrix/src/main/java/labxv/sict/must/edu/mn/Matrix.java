@@ -29,7 +29,9 @@ public class Matrix {
         this.cols = matrixData[0].length;
     }
 
-    /** data get method. */
+    /** data get method.
+     * @return matrixiin medeelel
+     */
     public int[][] getData() {
         return data;
     }
@@ -56,7 +58,7 @@ public class Matrix {
     }
 
     /**
-     * 2 matxiig hasna.
+     * 2 matrixiig hasna.
      *
      * @param other
      * @return matrixuudiin yalgavar
