@@ -24,6 +24,10 @@ public class Matrix {
      * @param matrixData 2d massive
      */
     public Matrix(final int[][] matrixData) {
+        if (matrixData == null || matrixData.length == 0
+        || matrixData[0].length == 0) {
+            throw new IllegalArgumentException("Matrix hooson baij bolohgui");
+        }
         this.data = matrixData;
         this.rows = matrixData.length;
         this.cols = matrixData[0].length;
