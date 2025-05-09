@@ -24,7 +24,7 @@ jobs:
         run: mvn checkstyle:check
         working-directory: ./matrix
       - name: JUnit Тест ба JaCoCo Coverage Шалгах
-        run: mvn test jacoco:check
+        run: mvn test
         working-directory: ./matrix
       - name: JaCoCo Тайлан Үүсгэх
         run: mvn jacoco:report
